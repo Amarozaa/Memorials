@@ -7,9 +7,7 @@
 #include "MemorialsPlayerController.generated.h"
 
 class UInputMappingContext;
-
-
-
+class UUserWidget;
 
 /**
  *  Basic PlayerController class for a third person game
@@ -37,15 +35,10 @@ protected:
 	/** Pointer to the mobile controls widget */
 	TObjectPtr<UUserWidget> MobileControlsWidget;
 
-
-
-
 	/** Gameplay initialization */
 	virtual void BeginPlay() override;
 
 	/** Input mapping context setup */
 	virtual void SetupInputComponent() override;
-
-
 
 };

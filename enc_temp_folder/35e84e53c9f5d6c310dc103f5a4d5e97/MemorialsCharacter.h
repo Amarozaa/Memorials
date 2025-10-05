@@ -12,7 +12,6 @@ class UCameraComponent;
 class UInputAction;
 struct FInputActionValue;
 
-
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 /**
@@ -49,8 +48,6 @@ protected:
 	/** Mouse Look Input Action */
 	UPROPERTY(EditAnywhere, Category="Input")
 	UInputAction* MouseLookAction;
-
-
 
 public:
 

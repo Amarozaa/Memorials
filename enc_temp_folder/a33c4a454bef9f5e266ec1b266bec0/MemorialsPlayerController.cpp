@@ -13,30 +13,6 @@ void AMemorialsPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-
-	//if (MiWidgetClass)
-	//{
-	//	MiWidgetInstance = CreateWidget<UUserWidget>(this, MiWidgetClass);
-	//	if (MiWidgetInstance)
-	//	{
-	//		MiWidgetInstance->AddToPlayerScreen(0); // Puedes cambiar la prioridad si lo necesitas
-	//		ACharacter* MyCharacter = GetCharacter();
-	//		if (MyCharacter)
-	//		{
-	//			//UHealthComponent* HealthComp = MyCharacter->FindComponentByClass<UHealthComponent>();
-	//			//if (HealthComp)
-	//			//{
-	//			//	HealthComp->SetHealthProgressBar(NuevoValor); // Pasa el valor que necesites
-	//			//}
-	//		}
-
-	//	}
-	//	else
-	//	{
-	//		UE_LOG(LogMemorials, Error, TEXT("No se pudo crear el widget personalizado."));
-	//	}
-	//}
-
 	// only spawn touch controls on local player controllers
 	if (SVirtualJoystick::ShouldDisplayTouchInterface() && IsLocalPlayerController())
 	{
