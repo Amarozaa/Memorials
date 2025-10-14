@@ -34,7 +34,8 @@ void AMemorialsPlayerController::BeginPlay()
 	//	else
 	//	{
 	//		UE_LOG(LogMemorials, Error, TEXT("No se pudo crear el widget personalizado."));
-	//	}
+	//	}y
+	// 
 	//}
 
 	// only spawn touch controls on local player controllers
